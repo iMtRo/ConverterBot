@@ -127,3 +127,4 @@ async def stop_cmd(client, message):
         await message.reply("ℹ️ Hozir hech qanday convert ketmayapti.")
 
 app.run()
+
