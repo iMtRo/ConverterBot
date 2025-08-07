@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-API_ID = int(os.getenv("24280776"))
-API_HASH = os.getenv("23a4634941a7687050132a75f3f1e20b")
-BOT_TOKEN = os.getenv("8405572224:AAFEUq7d-3xXixStAHrRIMQ7-4oM_DYDzAY")
-OWNER_ID = int(os.getenv("5556896112"))
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+OWNER_ID = int(os.getenv("OWNER_ID"))
 
 app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
